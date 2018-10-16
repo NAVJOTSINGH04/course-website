@@ -1,19 +1,74 @@
+body{
+    font-family: Volkorn, sans-serif;
+}
+/*background video*/
+#bdVideo {
+    position: fixed;
+     min-height: 100%;
+        min-width:100%;
+    z-index: -100;
+}
 
+/*navbar styling*/
+.navbar-default {
+    background-color: #1b3759;
+    font-size: 18px;
+  
+}
+.navbar-default .navbar-brand{
+    color: white;
+}
+.navbar-default .navbar-brand:hover{
+    color: white;
+}
+.navbar-default .navbar-nav li a{
+    color:gray;
+}
+.navbar-default .navbar-nav li a:hover{
+    color:white;
+}
+/*style jumbotron*/
 .jumbotron {
-    background-color: transparent;
+   background-color: transparent;
     text-align: center;
     letter-spacing: 1.5px;
+    padding-top: 15%;
 }
+.jumbotron h1{
+    color: white;
+    margin-bottom: 30px;
+}
+.jumbotron p  {
+    color: white;
+}
+
 .bbton {
-    margin-top: 120px;
+    margin-top: 80px;
 }
+/*about*/
+#iconContent {
+    padding-top: 15%;
+    color: white;
+}
+#iconContent h3{
+    font-weight: bold;
+   
+}
+#iconContent p{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.container {
+    max-width: 1000px;
+}
+
 
 .bodyimage {
     height: 100px;
 }
 
 .featured {
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 
@@ -21,3 +76,6 @@
 .carsosel {
     margin-top: 300px;
 }
+
+
+

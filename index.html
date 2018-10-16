@@ -10,11 +10,15 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="style.css" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
    
   </head>
   <body>
-   <nav class="navbar navbar-default">
+      <video autoplay loop muted id="bdVideo">
+      <source src="images/nature%20video.mp4"  type="video/mp4">
+           </video>
+     
+   <nav class="navbar navbar-default  ">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -30,7 +34,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#home">Home <span class="sr-only">(current)</span></a></li>
       <li><a href="#iconContent">About us</a></li>
           <li><a href="#carousel-example-generic">Promise</a></li>
         
@@ -41,34 +45,38 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!--      jumbotron-->
-      <div class="jumbotron">
+      <div class="jumbotron" id="home">
+          <div class="container">
   <h1>complete web development course</h1>
   <p>go from zero-skills to cash- earning web developer</p>
   <p><a class="btn btn-primary btn-lg bbton" href="#" role="button">join us now!</a></p>
 </div>
+      </div>
 <!--      icons-->
 <div class="featured" id="iconContent">
+    <div class="container">
 <div class="row">
   <div class="col-sm-6 col-md-4">
     
-      <img src="images/LogoMakr_2byXSS.png" class="bodyimage" alt="quality">
+      <img src="images/quality.png" class="bodyimage" alt="quality">
      
         <h3>High Quality Lecture</h3>
           <p>All lectures have been bery well prepared for the best learning experience of future developers</p>
       </div>
       <div class="col-sm-6 col-md-4">
           <div class="content">
-          <img src="images/LogoMakr_1TnaAv.png" class="bodyimage" alt="content">
+          <img src="images/tools.png" class="bodyimage" alt="content">
          <h3>+80H of Rich Content</h3>
           <p>Learn all major Web Technologies HTML%     , CSS, Javascript, JQuery, Twitter, Bootstrap, PHP, mySQl, Wordpress,  Ajax, XML, JSON, MOblieApps,  API's:Google,Facebook and MORE!</p>
           </div>
           </div>
           <div class="col-sm-6 col-md-4">
-            <img src="images/LogoMakr_2g83Xs.png" class="bodyimage" alt="help">
+            <img src="images/LogoMakr_7YYOrr.png" class="bodyimage" alt="help">
            <h3>Get Help Anytime!</h3>
           <p>Post your Questions in the FORums of the course where myself and thousands of students are happy to help!</p>
               </div>
     </div>
+        </div>
   </div>
 <!--  carousel    -->
       <div id="carousel-example-generic" class="carousel slide carsosel" data-ride="carousel">
@@ -112,5 +120,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+          
   </body>
 </html>
