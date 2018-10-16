@@ -1,5 +1,6 @@
 body{
     font-family: Volkorn, sans-serif;
+    color: white;
 }
 /*background video*/
 #bdVideo {
@@ -79,3 +80,28 @@ body{
 
 
 
+
+.item .carousel-caption h2{
+    color: white;
+}
+
+#promise {
+    padding-top: 100px;
+}
+
+#carousel-example-generic {
+    width: 60%;
+    margin: 0 auto;
+/*    text-align: center;*/
+}
+.carousel-inner .item img{
+    height: 400px;
+    margin: 0 auto;
+    
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
