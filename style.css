@@ -1,6 +1,7 @@
 body{
     font-family: Volkorn, sans-serif;
     color: white;
+    position: relative;
 }
 /*background video*/
 #bdVideo {
@@ -14,6 +15,7 @@ body{
 .navbar-default {
     background-color: #1b3759;
     font-size: 18px;
+   
   
 }
 .navbar-default .navbar-brand{
@@ -86,7 +88,8 @@ body{
 }
 
 #promise {
-    padding-top: 100px;
+    margin-top: 100px;
+    padding-top: 200px;
 }
 
 #carousel-example-generic {
@@ -104,4 +107,40 @@ body{
     left: auto;
     right: auto;
     height: 200px;
+}
+@media(max-device-width:768px){
+    body{
+        background:url(images/blue-blur-color-932638.jpg) center center fixed;
+        background-size: cover;
+    }
+    #bdVideo{
+      display: none;
+    }
+}
+@media(max-width:768px){
+    .carousel-inner .item img{
+        height: 300px;
+    }
+    .carousel h2{
+        font-size: 23px;
+    }
+}
+@media(max-width:400px){
+    .carousel-inner .item img{
+        height: 200px;
+    }
+    .carousel h2{
+        font-size: 17px;
+    }
+    .navbar-default .navbar-brand{
+        font-size: 12px;
+    }
+}
+
+.footer {
+    background-color: rgba(29,167,179,0.1);
+    color: white;
+    padding: 10px o;
+    margin-top: 150px;
+    font-size: 15px;
 }
