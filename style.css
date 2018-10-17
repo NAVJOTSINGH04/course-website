@@ -108,6 +108,7 @@ body{
     right: auto;
     height: 200px;
 }
+/*media queries*/
 @media(max-device-width:768px){
     body{
         background:url(images/blue-blur-color-932638.jpg) center center fixed;
@@ -136,7 +137,7 @@ body{
         font-size: 12px;
     }
 }
-
+/*footer*/
 .footer {
     background-color: rgba(29,167,179,0.1);
     color: white;
